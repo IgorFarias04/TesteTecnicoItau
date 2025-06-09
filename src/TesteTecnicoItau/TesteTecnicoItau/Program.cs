@@ -177,11 +177,7 @@ class Program
                     Console.Write("Nome do ativo: ");
                     var nome = Console.ReadLine();
 
-                    //Console.Write("Preço atual (cotação): ");
-                    //decimal preco = decimal.Parse(Console.ReadLine() ?? "0");
-
                     decimal preco;
-
                     Console.Write("Deseja buscar a cotação automaticamente? (s/n): ");
                     var escolha = Console.ReadLine()?.ToLower();
 
@@ -206,10 +202,7 @@ class Program
                         Console.Write("Digite o valor da cotação: ");
                         preco = Convert.ToDecimal(Console.ReadLine());
                     }
-
-
                     await ativoService.CadastrarAtivoAsync(cod, nome, preco);
-                    Console.WriteLine("Ativo cadastrado com sucesso!");
                     break;
 
                 case "2":
