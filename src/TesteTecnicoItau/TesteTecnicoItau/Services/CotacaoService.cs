@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TesteTecnicoItau.Services
+﻿namespace TesteTecnicoItau.Services
 {
-    internal class CotacaoService
-    {
-    }
+    internal class CotacaoService { }
 }

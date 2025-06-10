@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TesteTecnicoItau.Entities
+﻿namespace TesteTecnicoItau.Entities
 {
     public class Operacao
     {
@@ -16,8 +10,11 @@ namespace TesteTecnicoItau.Entities
         public string TipoOp { get; set; } = string.Empty; // COMPRA ou VENDA
         public decimal Corretagem { get; set; }
         public DateTime DataHora { get; set; }
-
         public Usuario Usuario { get; set; } = null!;
         public Ativo Ativo { get; set; } = null!;
+        public object Quantidade { get; internal set; }
+        public object PrecoUnitario { get; internal set; }
+        public object Tipo { get; internal set; }
+        public object TotalOperacao { get; internal set; }
     }
 }

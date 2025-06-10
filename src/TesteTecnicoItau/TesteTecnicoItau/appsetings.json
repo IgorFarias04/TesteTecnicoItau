@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TesteTecnicoItau
-{
-    class appsetings
-    {
-    }
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost;database=sistema_ativos;user=root;password=@Rodrigues2012"
+  }
 }

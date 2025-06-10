@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
 
 public class B3CotacaoClient
 {
@@ -32,8 +30,7 @@ public class B3CotacaoClient
         }
         catch
         {
-            return null; 
+            return null;
         }
     }
 }
-

@@ -8,9 +8,5 @@ public class Posicao
     public int Qtd { get; set; }
     public decimal PrecoMedio { get; set; }
     public decimal Pl { get; set; }
-
-    //public Usuario? Usuario { get; set; }
-    //public Ativo? Ativo { get; set; }
+    public int Quantidade { get; set; }
 }
-
-
